@@ -1,6 +1,7 @@
-import socket, requests, platform, psutil, getpass, os
+import socket, requests, platform, getpass, os
 
 os.system('pip install psutil')
+import psutil
 def convert_bytes_to_gb(bytes_value):
     gb_value = bytes_value / (1024 ** 3)
     return round(gb_value, 2)
